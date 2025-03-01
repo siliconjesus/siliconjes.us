@@ -25,3 +25,5 @@ basic-website
 3. Modify the `styles/style.css` file to change the appearance as desired. 
 
 This project serves as a basic template for creating a simple web page.
+
+## This framework was created by Copilot in VS Code.  I'll add to it at a later date.
