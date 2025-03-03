@@ -1,13 +1,15 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
 body {
     background-color: black;
     color: #00aa00;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    flex-direction: column;
-    font-family : monospace;
+    font-family: monospace;
+    flex: 1;
 }
 
 h1 {
@@ -16,9 +18,23 @@ h1 {
     border: 2px solid white;
     background-color: black;
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    align-self: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
 }
 
 a {
     color: #00aa00;
     text-decoration: none;
+}
+
+footer {
+    margin-top: auto;
+    padding: 10px;
+    background-color: black;
+    border-top: 2px solid white;
+    text-align: center;
 }
